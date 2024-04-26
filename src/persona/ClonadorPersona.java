@@ -7,10 +7,18 @@ public class ClonadorPersona {
 
 	private String nombre;
 
+	/**
+	 * constructor parametrizado
+	 * @param nombre
+	 */
 	public ClonadorPersona(String nombre) {
 		this.nombre = nombre;
 	}
 
+	/**
+	 * método clonar a la persona
+	 * @return List<Persona>
+	 */
 	public List<Persona> generarClones() {
 		PersonaData pd = new PersonaData();
 		List<Persona> devolver = new ArrayList<Persona>();
