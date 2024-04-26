@@ -1,10 +1,15 @@
 package main;
 
+import persona.ClonadorPersona;
+
 public class Start {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		ClonadorPersona cp = new ClonadorPersona("Pablo");
+		
+		System.out.println(cp.generarClones());
+		
 	}
 
 }
